@@ -1,0 +1,15 @@
+{
+  "name": "Gazometr",
+  "short_name": "Gazometr",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f2f2f7",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "ikona.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
