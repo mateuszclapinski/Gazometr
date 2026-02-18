@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Gazometr</title>
+    
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="ikona.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 
 <style>
 body {
@@ -82,13 +87,11 @@ img.tank {
 <body>
 
 <div class="container">
-    
-    <!-- IKONA ZBIORNIKA -->
+
     <div class="section center">
         <img src="gazometr.png" class="tank">
     </div>
 
-    <!-- WYBÓR ZBIORNIKA -->
     <div class="section">
         <div class="section-title">Wybór zbiornika</div>
         <div class="row">
@@ -99,12 +102,12 @@ img.tank {
         </div>
     </div>
 
-    <!-- NAPEŁNIENIE -->
+
     <div class="section">
         <div class="section-title">Obecne napełnienie</div>
 
         <div class="row">
-            <div>Napełnienie: <span id="percent">50</span>%</div>
+            <div>  <span id="percent">50</span>%</div>
         </div>
 
         <div class="row">
@@ -112,19 +115,19 @@ img.tank {
         </div>
     </div>
 
-    <!-- AKTUALNA ILOŚĆ -->
+
     <div class="section">
         <div class="section-title">Aktualna ilość gazu</div>
         <div class="row big" id="currentLiters">0 L</div>
     </div>
 
-    <!-- DO ZAMÓWIENIA -->
+
     <div class="section">
         <div class="section-title">Do zamówienia</div>
         <div class="row big blue" id="toOrder">0 L</div>
     </div>
 
-    <!-- CENA -->
+
     <div class="section">
         <div class="section-title">Cena gazu</div>
         <div class="row">
@@ -132,7 +135,7 @@ img.tank {
         </div>
     </div>
 
-    <!-- KOSZT -->
+
     <div class="section">
         <div class="section-title">Koszt tankowania</div>
         <div class="row big green" id="cost">0 zł</div>
